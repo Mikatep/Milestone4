@@ -13,6 +13,21 @@
         </li>
 
         <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Technologies
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="webs-link">
+                <a href="{% url 'products' %}?category=basic-frontend" class="dropdown-item">HTML&CSS</a>
+                <a href="{% url 'products' %}?category=javascript" class="dropdown-item">JavaScript</a>
+                <a href="{% url 'products' %}?category=mongoDB" class="dropdown-item">MongoDB</a>
+                <a href="{% url 'products' %}?category=sql" class="dropdown-item">SQL</a>
+                <a href="{% url 'products' %}?category=flask" class="dropdown-item">Flask</a>
+                <a href="{% url 'products' %}?category=django" class="dropdown-item">Django</a>
+                <a href="{% url 'products' %}?category=django,flask,sql,mongoDB,javascript,basic-frontend" class="dropdown-item">All Technologies</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="social-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Social Work
             </a>
