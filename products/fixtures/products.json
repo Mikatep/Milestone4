@@ -1,0 +1,1 @@
+[{"pk": 1, "model": "products.product", "fields": {"sku": "pp5001340155", "name": "Simple frontend site (HTML & CSS)", "description": "Basic Frontend site HTML&CSS, ideal for small business that wants to have an economic web presence", "price": 149.99, "category": 1, "rating": 4.6, "image": "Rebytek-readme.png"}}] 
